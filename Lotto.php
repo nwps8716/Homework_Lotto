@@ -9,7 +9,7 @@ echo "本次樂透號碼: <br>";
         
         $number = rand(1,49) . "<br />";
         
-        if (in_array($number , $lotto)) {
+        if (in_array($number , $lotto)) {  //in_array判斷是否有相同的值
             $i--;
         }
         else{
